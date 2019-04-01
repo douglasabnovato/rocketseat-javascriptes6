@@ -1,0 +1,12 @@
+{
+  "name": "javascriptes6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:douglasabnovato/rocketseat-javascriptes6.git",
+  "author": "@douglasabnovato <douglasabnovato@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.4.2"
+  }
+}
