@@ -4,7 +4,7 @@
 ## Criação: 01 de abril de 2019
 ## Prática : @douglasabnovato
 
-![Javascript](/images/logo-javascript-es6)
+![Javascript](/images/logo-javascript-es6.png)
 ![Git](/images/logo-git.png)
 ![GitHub](/images/logo-github.png)
 
