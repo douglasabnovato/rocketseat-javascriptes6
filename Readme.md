@@ -4,7 +4,7 @@
 ## Criação: 01 de abril de 2019
 ## Prática : @douglasabnovato
 
-![Javascript](/images/logo-udemy.png)
+![Javascript](/images/logo-javascript-es6)
 ![Git](/images/logo-git.png)
 ![GitHub](/images/logo-github.png)
 
