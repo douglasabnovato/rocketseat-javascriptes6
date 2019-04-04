@@ -4,7 +4,13 @@
 ## Criação: 01 de abril de 2019
 ## Prática : @douglasabnovato
 
+![Rocketseat](/images/logo-rocketseat.png)
+![HTML e CSS](/images/logo-html-css.png)
 ![Javascript](/images/logo-javascript-es6.png)
+![ReactJS](/images/logo-reactjs.jpg)
+![Yarn](/images/logo-yarn.png)
+![NodeJS](/images/nodejs.png)
+![VSCode](/images/logo-VSCode.png)
 ![Git](/images/logo-git.png)
 ![GitHub](/images/logo-github.png)
 
