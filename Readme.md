@@ -13,8 +13,10 @@
 ### SESSÃO 1 - Conceitos
 
 #### Aula 1. Introdução 
-1. Babel
-2. Webpack
+- definição : Javascript - Ecmascript 6 - ES6
+1. Babel : navegadores entenderem ES6
+2. Webpack : monitora modificações nos arquivos 
+- `yarn dev` : servidor executando e mantendo a visualização das alterações
 3. classes
 4. arrow function
 5. desestruturação
@@ -29,8 +31,15 @@
 #### Aula 3. Configurando Babel
 1. `yarn add @babel/cli`
 2. `yarn add @babel/preset-env`
+3. Arquivos : 
+- .gitignore
+- .babelrc
+- package.json
+- main.js e index.html
+- bundle.js
 
 #### Aula 4. Classes
+- exemplificações estão em main1.js
 
 #### Aula 5. Const e Let
 1. mutação 
@@ -46,7 +55,6 @@
 
 #### Aula 7. Arrow Function
 - reduzir o código
-- `yarn dev` : servidor executando e mantendo a visualização das modificações
 
 #### Aula 8. Valores padrão
 
