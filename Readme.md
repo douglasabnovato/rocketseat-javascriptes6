@@ -3,7 +3,7 @@
 ## Atualização: 01 de abril de 2019 - 15:14
 ## Criação: 01 de abril de 2019
 ## Prática : @douglasabnovato
-
+## Ferramentas : 
 ![Rocketseat](/images/logo-rocketseat.png)
 ![HTML e CSS](/images/logo-html-css.png)
 ![Javascript](/images/logo-javascript-es6.png)
