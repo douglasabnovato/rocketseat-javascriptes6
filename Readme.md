@@ -46,7 +46,7 @@
 
 #### Aula 7. Arrow Function
 - reduzir o código
-`yarn dev` : servidor executando e mantendo a visualização das modificações
+- `yarn dev` : servidor executando e mantendo a visualização das modificações
 
 #### Aula 8. Valores padrão
 
