@@ -51,14 +51,20 @@
 - exemplicações estão em `main5.js`
 
 #### Aula 6. Operações em Array
-1. newArr
-2. reduce : retorna um número de todo o vetor
-3. filter : retorna true ou false
-4. find
-5. map : percorrer vetor
+- newArr
+- reduce : retorna um número de todo o vetor
+- filter : retorna true ou false
+- finder
+- map : percorrer vetor
+- exemplicações estão em `main2.js`
 
 #### Aula 7. Arrow Function
 - reduzir o código
+- exemplicações estão em `main6.js`
+
+#### Arquivos Index
+- index.html : modelo
+- index1.html : com botão Adicionar
 
 #### Aula 8. Valores padrão
 
