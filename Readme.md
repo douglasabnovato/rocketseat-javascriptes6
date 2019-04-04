@@ -39,12 +39,16 @@
 - bundle.js
 
 #### Aula 4. Classes
-- exemplificações estão em main1.js
+- exemplificações estão em `main1.js`
 
 #### Aula 5. Const e Let
-1. mutação 
-2. variável de escopo
-3. let e const 
+1. const são constantes 
+- uma constante não pode ter seu valor reatribuído.
+- para realizar reatribuição de uma constante, executa-se uma mutação.
+- mutar uma constante está exemplificado em `main4.js`
+2. let são variáveis de escopo
+- podem ser referenciadas apenas dentro do escopo que foram declaradas
+- exemplicações estão em `main5.js`
 
 #### Aula 6. Operações em Array
 1. newArr
