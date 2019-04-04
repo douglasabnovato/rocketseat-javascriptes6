@@ -5,11 +5,13 @@
   "repository": "git@github.com:douglasabnovato/rocketseat-javascriptes6.git",
   "author": "@douglasabnovato <douglasabnovato@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
-    "@babel/preset-env": "^7.4.2"
+    "@babel/preset-env": "^7.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "scripts": {
     "dev": "babel ./main.js -o ./bundle.js -w"
