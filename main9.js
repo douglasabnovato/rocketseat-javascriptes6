@@ -1,12 +1,12 @@
 // rest 
 
-const usuario = {
+const usuario1 = {
     nome : 'Diego',
     idade : 23,
     empresa : 'Rocketseat'
 };
 
-const { nome, ... resto } = usuario;
+const { nome, ... resto } = usuario1;
 
 console.log(nome);
 console.log(resto);
@@ -18,3 +18,4 @@ const [a,b, ... c] = arr;
 console.log(a);
 console.log(b);
 console.log(c);
+ 
