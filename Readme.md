@@ -74,10 +74,15 @@
 - index1.html : com botão Adicionar
 
 #### Aula 8. Valores padrão
+- exemplicações estão em `main7.js`
 
 #### Aula 9. Desestruturação
+- exemplicações estão em `main8.js`
 
 #### Aula 10. Operações rest / spread
+- pacote do plugin : `yarn add @babel/plugin-proposal-object-rest-spread`
+- exemplicação do rest está em `main9.js` 
+- exemplicação do spread está em `main10.js`
 
 #### Aula 11. Template Literals
 ` `Meu nome é ${meunome} e estudo ${meucurso}` ` : não há necessidade de concatenar texto e variáveis.
@@ -88,29 +93,29 @@
 
 ### SESSÃO 2 - Webpack Server
 
-#### Aula 1. 
+#### Aula 13. 
 
-#### Aula 2. 
+#### Aula 14. 
 
-#### Aula 3. 
+#### Aula 15. 
 
 ### SESSÃO 3 - Async / Await
 
-#### Aula 1. 
+#### Aula 16. 
 
-#### Aula 2.
+#### Aula 17.
 
 ### SESSÃO 4 - Aplicação com ES6+
 
-#### Aula 1. 
+#### Aula 18. 
 
-#### Aula 2. 
+#### Aula 19. 
 
-#### Aula 3. 
+#### Aula 19. 
 
-#### Aula 4. 
+#### Aula 20. 
 
-#### Aula 5. 
+#### Aula 21. 
 
 :. Do curso ´Javascript ES6´ da Rocketseat.
 Por Diego Fernandes.
