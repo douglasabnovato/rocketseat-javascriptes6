@@ -5,14 +5,15 @@
 ## Prática : @douglasabnovato
 ## Ferramentas : 
 ![Rocketseat](/images/logo-rocketseat.png)
+![ReactJS](/images/logo-reactjs.jpg)
+![Git](/images/logo-git.png)
+![GitHub](/images/logo-github.png)<br/>
 ![HTML e CSS](/images/logo-html-css.png)
 ![Javascript](/images/logo-javascript-es6.png)
-![ReactJS](/images/logo-reactjs.jpg)
 ![Yarn](/images/logo-yarn.png)
 ![NodeJS](/images/nodejs.png)
 ![VSCode](/images/logo-VSCode.png)
-![Git](/images/logo-git.png)
-![GitHub](/images/logo-github.png)
+
 
 ## Aulas
 
