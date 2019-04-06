@@ -1,64 +1,82 @@
 "use strict";
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+// dado o vetor :
+var usuarios = [{
+  nome: 'Diego',
+  idade: 23,
+  empresa: 'Rocketseat'
+}, {
+  nome: 'Gabriel',
+  idade: 15,
+  empresa: 'Rocketseat'
+}, {
+  nome: 'Lucas',
+  idade: 30,
+  empresa: 'Facebook'
+}, {
+  nome: 'Danilo',
+  idade: 25,
+  empresa: 'Rocketseat'
+}]; //utilizar os métodos de array (map, reduce, filter e find)
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+/**
+ * 2.1 Utilizando o map : Crie uma variável que contenha todas idades dos usuários: 
+ * Resultado : [23, 15, 30]
+ */
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+var idades = usuarios.map(function (usuario) {
+  return usuario.idade;
+});
+console.log(idades); //extras
 
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+var empresas = usuarios.map(function (usuario) {
+  return usuario.empresa;
+});
+console.log(empresas);
+var nomes = usuarios.map(function (usuario) {
+  return usuario.nome;
+});
+console.log(nomes);
+/**
+ * 2.2 Utilizando o filter :  
+ * Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18 anos:
+ * Resultado : [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
+ */
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var rocketseat18 = usuarios.filter(function (usuario) {
+  return usuario.empresa === 'Rocketseat' && usuario.idade >= 18;
+});
+console.log(rocketseat18);
+/**
+ * 2.3 Utilizando o find : 
+ * Crie uma variável que procura por um usuário que trabalhe na empresa Google:
+ * Resultado : undefined
+ */
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+var salarioGoogle = usuarios.find(function (usuario) {
+  return usuario.empresa === 'Google';
+});
+console.log(salarioGoogle);
+/**
+ * 2.4 Unindo operações :
+ * Multiplique a idade de todos usuários por dois e depois realize um filtro nos usuários que possuem 
+ * no máximo 50 anos:
+ * Resultado:
+ * [
+ *  { nome: 'Diego', idade: 46, empresa: 'Rocketseat' },
+ *  { nome: 'Gabriel', idade: 30, empresa: 'Rocketseat' },
+ * ]
+ */
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-//desafio - módulo 1
-var Usuario =
-/*#__PURE__*/
-function () {
-  function Usuario(email, password) {
-    _classCallCheck(this, Usuario);
-
-    this.email = email;
-    this.password = password;
-  }
-
-  _createClass(Usuario, [{
-    key: "isAdmin",
-    value: function isAdmin() {
-      return this.admin === true;
-    }
-  }]);
-
-  return Usuario;
-}();
-
-var Admin =
-/*#__PURE__*/
-function (_Usuario) {
-  _inherits(Admin, _Usuario);
-
-  function Admin(email, password) {
-    var _this;
-
-    _classCallCheck(this, Admin);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Admin).call(this, email, password));
-    _this.admin = true;
-    return _this;
-  }
-
-  return Admin;
-}(Usuario);
-
-var User1 = new Usuario('email@teste.com', 'senha123');
-var Adm1 = new Admin('email@teste.com', 'senha123');
-console.log(User1.isAdmin()); // false
-
-console.log(Adm1.isAdmin()); // true
+var calculo = usuarios.map(function (usuario) {
+  return _objectSpread({}, usuario, {
+    idade: usuario.idade * 2
+  });
+}).filter(function (usuario) {
+  return usuario.idade <= 50;
+});
+console.log(calculo);
