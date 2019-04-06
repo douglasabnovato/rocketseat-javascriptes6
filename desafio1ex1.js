@@ -1,4 +1,3 @@
-//desafio - módulo 1
 class Usuario{
     constructor(email, password){
         this.email = email;
