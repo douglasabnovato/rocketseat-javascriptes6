@@ -1,62 +1,47 @@
-//converter o código em Arrow Functions
-
 /**
- * 3.1
- * const arr = [1, 2, 3, 4, 5];
- * arr.map(function(item) {
- *      return item + 10;
- * });
+ * 4.1 
+ * Desestruturação simples
+ * A partir do seguinte objeto:
+ * const empresa = {
+ *          nome: 'Rocketseat',
+ *          endereco: {
+ *              cidade: 'Rio do Sul',
+ *              estado: 'SC',
+ *          }
+ * };
+ * Utilize a desestruturação para transformar as propriedades 
+ * nome, cidade e estado em variáveis, no fim deve ser possível
+ * fazer o seguinte:
+ * console.log(nome);   // Rocketseat
+ * console.log(cidade); // Rio do Sul
+ * console.log(estado); // SC
  */
-const arr = [1, 2, 3, 4, 5];
-console.log(arr);
-
-const soma10 = arr.map(ar => ar + 10);
-console.log(soma10);
+const empresa = {
+    nome: "Rocketseat",
+    endereco: {
+        cidade: "Rio de Janeiro",
+        estado: "SC",
+    }
+};
+const {nome, endereco:{cidade, estado}} = empresa;
+console.log(nome);
+console.log(cidade);
+console.log(estado);
 
 /**
- * 3.2
- * Dica: Utilize uma constante pra function
- * const usuario = { nome: 'Diego', idade: 23 };
- * function mostraIdade(usuario) {
- *      return usuario.idade;
+ * 4.2 
+ * Desestruturação em parâmetros
+ * Na seguinte função:
+ * function mostraInfo(usuario) {
+ *      return ${usuario.nome} tem ${usuario.idade} anos.; entre crases
  * }
- * mostraIdade(usuario);
+ * mostraInfo({ nome: 'Diego', idade: 23 })
+ * Utilize a desestruturação nos parâmetros da função para buscar o nome e 
+ * idade do usuário separadamente e a função poder retornar apenas:
+ * return ${nome} tem ${idade} anos.; entre crases
  */
-const usuario = { nome: "Douglas", idade: 29 };
-const mostrarIdade = usuario => usuario.idade;
-console.log(mostrarIdade(usuario));
-
-/**
- * 3.3
- * Dica: Utilize uma constante pra function
- * const nome = "Diego";
- * const idade = 23;
- * function mostraUsuario(nome = 'Diego', idade = 18) {
- *      return { nome, idade };
- * }
- * mostraUsuario(nome, idade);
- * mostraUsuario(nome);
- */
-const nome = "Douglas";
-const idade = 23;
-const mostrarUsuario = (nome = "Diego", idade = 18) => ({
-    nome,
-    idade
-});
-console.log(mostrarUsuario(nome, idade));
-console.log(mostrarUsuario(nome));
-
-/**
- * 3.4
- * const promise = function() {
- *      return new Promise(function(resolve, reject) {
- *          return resolve();
- *      })
- * }
- */
-const promise = () => new Promise((resolve, reject) => resolve());
-
-
-
- 
+function mostrarInfo( {nome, idade} ){
+    return `${nome} tem ${idade} anos.`;
+}
+console.log(mostrarInfo({nome: "Diego", idade: 23}));
 
