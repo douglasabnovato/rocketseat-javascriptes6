@@ -101,7 +101,8 @@
 - instalação babel loader: `yarn add babel-loader -D`
 - identificação das dependencias: `"babel-loader": "^8.0.5"`
 
-#### Aula 14. 
+#### Aula 14. Import / Export
+- 
 
 #### Aula 15. 
 
