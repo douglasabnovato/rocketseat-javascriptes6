@@ -90,10 +90,16 @@
 #### Aula 12.  Object Short Syntax
 
 #### Desafio
+- Finalizados.
 
 ### SESSÃO 2 - Webpack Server
 
-#### Aula 13. 
+#### Aula 13. Configurando Webpack
+- instalação webpack: `yarn add webpack webpack-cli -D`
+- arquivo que lista dependências: `webpack.config.js`
+- identificação das dependencias: `"webpack": "^4.30.0"` e `"webpack-cli": "^3.3.0"`
+- instalação babel loader: `yarn add babel-loader -D`
+- identificação das dependencias: `"babel-loader": "^8.0.5"`
 
 #### Aula 14. 
 
