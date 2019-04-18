@@ -102,9 +102,13 @@
 - identificação das dependencias: `"babel-loader": "^8.0.5"`
 
 #### Aula 14. Import / Export
-- 
+- maneiras de declação do import
+- maneiras de declaração do export
 
-#### Aula 15. 
+#### Aula 15. Webpack dev server
+- organizar estrutura de pastas
+- instalar Webpack dev server : ` yarn add webpack-dev-server -D`
+- monitorar as alterações em projeto e realizar um refresh no servidor para exibir.
 
 ### SESSÃO 3 - Async / Await
 

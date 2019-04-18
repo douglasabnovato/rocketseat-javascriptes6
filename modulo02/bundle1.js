@@ -86,39 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./functions.js":
-/*!**********************!*\
-  !*** ./functions.js ***!
-  \**********************/
-/*! exports provided: soma, subtracao, divisao, resto */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"soma\", function() { return soma; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"subtracao\", function() { return subtracao; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"divisao\", function() { return divisao; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"resto\", function() { return resto; });\nfunction soma(a, b) {\n  return a + b;\n}\nfunction subtracao(a, b) {\n  return a - b;\n}\nfunction divisao(a, b) {\n  return a / b;\n}\nfunction resto(a, b) {\n  return a % b;\n}\n\n//# sourceURL=webpack:///./functions.js?");
-
-/***/ }),
-
 /***/ "./main.js":
 /*!*****************!*\
   !*** ./main.js ***!
   \*****************/
 /*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./functions */ \"./functions.js\");\n/* harmony import */ var _multiplication__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./multiplication */ \"./multiplication.js\");\n\n // por default\n\n\nconsole.log(Object(_functions__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(1, 2));\nconsole.log(Object(_functions__WEBPACK_IMPORTED_MODULE_0__[\"subtracao\"])(7, 2));\nconsole.log(Object(_multiplication__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(3, 2));\nconsole.log(_functions__WEBPACK_IMPORTED_MODULE_0__[\"divisao\"](9, 3));\nconsole.log(_functions__WEBPACK_IMPORTED_MODULE_0__[\"resto\"](2, 3));\n\n//# sourceURL=webpack:///./main.js?");
-
-/***/ }),
-
-/***/ "./multiplication.js":
-/*!***************************!*\
-  !*** ./multiplication.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return multiplication; });\nfunction multiplication(a, b) {\n  return a * b;\n}\n\n//# sourceURL=webpack:///./multiplication.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\douglasabnovato\\\\rocketseat\\\\javascriptes6\\\\main.js'\");\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 
