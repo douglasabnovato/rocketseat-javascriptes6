@@ -89,7 +89,7 @@
 
 #### Aula 12.  Object Short Syntax
 
-#### Desafio
+#### Desafio.
 - Finalizados.
 
 ### SESSÃO 2 - Webpack Server
@@ -109,6 +109,9 @@
 - organizar estrutura de pastas
 - instalar Webpack dev server : ` yarn add webpack-dev-server -D`
 - monitorar as alterações em projeto e realizar um refresh no servidor para exibir.
+
+#### Desafio.
+- Fazendo.
 
 ### SESSÃO 3 - Async / Await
 
