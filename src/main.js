@@ -1,27 +1,22 @@
-/**
- * 1.1
- * No arquivo principal, importe apenas a classe Usuario renomeando-a 
- * para ClasseUsuario e chame a função info();
- */
-import ClasseUsuario from "./functions";
+const minhaPromise = () => new Promise((resolve, reject) => {
+    setTimeout(() => { resolve('OK') }, 2000);
 
-ClasseUsuario.info();
+});
 
 /**
- * 1.2
- * No arquivo principal, importe a variável de idade e exiba a mesma em tela;
+ minhaPromise()
+    .then(response => {
+        console.log(response);
+    })
+    .catch(err =>{
+
+    }); 
  */
 
- import { idade } from "./functions";
+async function executaPromise(){
+    console.log(await minhaPromise());
+    console.log(await minhaPromise());
+    console.log(await minhaPromise());
+}
 
- console.log(idade);
-
- /**
-  * 1.3
-  * No arquivo principal, importe tanto a classe quanto a variável idade 
-  * e renomeie a variável idade para IdadeUsuario.
-  */
- import Usuario, { idade as IdadeUsuario } from "./functions";
-
- console.log(Usuario.info());
- console.log(IdadeUsuario);
+executaPromise();

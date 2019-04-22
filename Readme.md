@@ -111,11 +111,13 @@
 - monitorar as alterações em projeto e realizar um refresh no servidor para exibir.
 
 #### Desafio.
-- Fazendo.
+- Finalizados.
 
 ### SESSÃO 3 - Async / Await
 
-#### Aula 16. 
+#### Aula 16. Async / Await
+- requisições acíncronas.
+- criação de promise.
 
 #### Aula 17.
 
