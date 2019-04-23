@@ -121,6 +121,7 @@
 
 #### Aula 17. Configurando Axios
 - instalar dependência `yarn add axios`
+- try catch para tratar erro.
 
 ### SESSÃO 4 - Aplicação com ES6+
 
