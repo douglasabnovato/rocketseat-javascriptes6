@@ -119,7 +119,8 @@
 - requisições acíncronas.
 - criação de promise.
 
-#### Aula 17.
+#### Aula 17. Configurando Axios
+- instalar dependência `yarn add axios`
 
 ### SESSÃO 4 - Aplicação com ES6+
 
