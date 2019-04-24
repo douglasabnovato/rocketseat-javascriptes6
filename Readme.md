@@ -128,15 +128,15 @@
 
 ### SESSÃO 4 - Aplicação com ES6+
 
-#### Aula 18. 
+#### Aula 18. Estrutura e estilos
 
-#### Aula 19. 
+#### Aula 19. Adicionar repositórios
 
-#### Aula 19. 
+#### Aula 19. Render em tela
 
-#### Aula 20. 
+#### Aula 20. Buscando API
 
-#### Aula 21. 
+#### Aula 21. Loading e error
 
 :. Do curso ´Javascript ES6´ da Rocketseat.
 Por Diego Fernandes.
