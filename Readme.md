@@ -129,6 +129,8 @@
 ### SESSÃO 4 - Aplicação com ES6+
 
 #### Aula 18. Estrutura e estilos
+- HTML
+- CSS
 
 #### Aula 19. Adicionar repositórios
 
