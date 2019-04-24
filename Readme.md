@@ -123,6 +123,9 @@
 - instalar dependência `yarn add axios`
 - try catch para tratar erro.
 
+#### Desafio.
+- Finalizados.
+
 ### SESSÃO 4 - Aplicação com ES6+
 
 #### Aula 18. 
