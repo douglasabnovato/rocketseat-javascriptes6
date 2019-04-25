@@ -133,6 +133,7 @@
 - CSS
 
 #### Aula 19. Adicionar repositórios
+- iniciando segunda aula do módulo 04.
 
 #### Aula 19. Render em tela
 
