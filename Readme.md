@@ -133,9 +133,10 @@
 - CSS
 
 #### Aula 19. Adicionar repositórios
-- iniciando segunda aula do módulo 04.
+- class App no arquivo main.js.
 
 #### Aula 19. Render em tela
+- criar o método render para exibir os elementos em tempo real ao ser adicionados.
 
 #### Aula 20. Buscando API
 
