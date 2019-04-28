@@ -141,6 +141,7 @@
 #### Aula 20. Buscando API
 - configurando a API para usar no projeto
 - usar os elementos da API para alimentar o projeto com os repositórios reais.
+- elementos deixarão de ser estáticos e se tornarão dinâmicos.
 
 #### Aula 21. Loading e error
 
