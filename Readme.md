@@ -142,6 +142,7 @@
 - configurando a API para usar no projeto
 - usar os elementos da API para alimentar o projeto com os repositórios reais.
 - elementos deixarão de ser estáticos e se tornarão dinâmicos.
+1. instalar e configurar axios
 
 #### Aula 21. Loading e error
 
