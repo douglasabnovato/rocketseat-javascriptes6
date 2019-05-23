@@ -1,8 +1,9 @@
 # JavascriptES6 
 
-## Atualização: 01 de abril de 2019 - 15:14
+## Atualização: 23 de maio de 2019 - 18:26 - done
 ## Criação: 01 de abril de 2019
 ## Prática : @douglasabnovato
+
 ## Ferramentas : 
 ![Rocketseat](/images/logo-rocketseat.png)
 ![ReactJS](/images/logo-reactjs.jpg)
@@ -13,7 +14,6 @@
 ![Yarn](/images/logo-yarn.png)
 ![NodeJS](/images/nodejs.png)
 ![VSCode](/images/logo-VSCode.png)
-
 
 ## Aulas
 
