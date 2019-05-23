@@ -145,6 +145,8 @@
 1. instalar e configurar axios
 
 #### Aula 21. Loading e error
+- loading message
+- error message
 
 :. Do curso ´Javascript ES6´ da Rocketseat.
 Por Diego Fernandes.
