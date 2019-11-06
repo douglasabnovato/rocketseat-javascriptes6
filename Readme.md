@@ -1,6 +1,6 @@
 # JavascriptES6 
 
-## Atualização: 23 de maio de 2019 - 18:26 - done
+## Atualização: 06 de novembro de 2019 - 12:19
 ## Criação: 01 de abril de 2019
 ## Prática : @douglasabnovato
 
@@ -46,6 +46,7 @@
 - bundle.js
 
 #### Aula 4. Classes
+- `yarn dev`
 - exemplificações estão em `main1.js`
 
 #### Aula 5. Const e Let
