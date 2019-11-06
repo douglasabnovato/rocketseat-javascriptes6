@@ -1,15 +1,19 @@
+
+
 class TodoList {
     constructor(){
-        this.todos = [];        
+        this.todos = [];
     }
+
     addTodo(){
-        this.todos.push('Novo ToDo');
+        this.todos.push('Novo Todo');
         console.log(this.todos);
     }
 }
 
-MinhaLista = new TodoList();
+const MinhaLista = new TodoList();
 
 document.getElementById('novotodo').onclick = function(){
-    MinhaLista.addTodo();
+    MinhaLista.add('Novo todo');
 }
+
