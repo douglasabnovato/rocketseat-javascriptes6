@@ -1,8 +1,8 @@
 # JavascriptES6 
 
-## Atualização: 06 de novembro de 2019 - 12:19
-## Criação: 01 de abril de 2019
-## Prática : @douglasabnovato
+### Atualização: 19 de agosto de 2020 - 17:00
+### Criação: 01 de abril de 2019
+### Prática : @douglasabnovato
 
 ## Ferramentas : 
 ![Rocketseat](/images/logo-rocketseat.png)
@@ -136,16 +136,16 @@
 #### Aula 19. Adicionar repositórios
 - class App no arquivo main.js.
 
-#### Aula 19. Render em tela
+#### Aula 20. Render em tela
 - criar o método render para exibir os elementos (repositórios) em tempo real ao ser adicionados.
 
-#### Aula 20. Buscando API
+#### Aula 21. Buscando API
 - configurando a API para usar no projeto
 - usar os elementos da API para alimentar o projeto com os repositórios reais.
 - elementos deixarão de ser estáticos e se tornarão dinâmicos.
 1. instalar e configurar axios
 
-#### Aula 21. Loading e error
+#### Aula 22. Loading e error
 - loading message
 - error message
 
