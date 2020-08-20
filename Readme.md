@@ -68,9 +68,6 @@
 - [x] 5.2.1. let - são as variáveis de escopo
 - [x] 5.2.2. let é visível apenas dentro da chaves ( {} ), dentro do escopo. 
 
-- podem ser referenciadas apenas dentro do escopo que foram declaradas
-- exemplicações estão em `main5.js`
-
 #### Aula 6. Operações em Array
 - newArr
 - reduce : retorna um número de todo o vetor
