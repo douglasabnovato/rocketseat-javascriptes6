@@ -73,6 +73,7 @@
 - [x] 6.1. Array: Percorrer, Filtrar, Encontrar Valor, Manipular
 - [x] 6.1.1. Definição de Vetor
 - [x] 6.1.2. Função map: percorrer e retornar informação 
+- [x] 6.1.3. Index: posição do elemento no vetor
 
 #### Aula 7. Arrow Function
 - reduzir o código
