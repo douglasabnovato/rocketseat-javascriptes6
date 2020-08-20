@@ -1,8 +1,8 @@
 # Javascript ES6 
 
-### Atualização: 19 de agosto de 2020 - 17:00
-### Criação: 01 de abril de 2019
-### Prática : @douglasabnovato
+#### Atualização: 19 de agosto de 2020 - 17:00
+#### Criação: 01 de abril de 2019
+#### Prática : @douglasabnovato
 
 ## Ferramentas : 
 ![Rocketseat](/images/logo-rocketseat.png)
@@ -47,6 +47,7 @@
 - [x] 3.7. `yarn dev` roda a aplicação
 
 #### Aula 4. Classes
+
 - [x] 4.1. Classe TodoList
 - [x] 4.2. Método Constructor
 - [x] 4.3. Método addTodo
