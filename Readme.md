@@ -60,10 +60,11 @@
 
 #### Aula 5. Const e Let
 
-1. const são constantes 
-- uma constante não pode ter seu valor reatribuído.
-- para realizar reatribuição de uma constante, executa-se uma mutação.
-- mutar uma constante está exemplificado em `main4.js`
+- [x] 5.1. Const 
+- [x] 5.1.1. var - pode receber diversos valores do decorrer do tempo do programa 
+- [x] 5.1.2. const - uma constante que não pode ter seu valor reatribuído
+- [x] 5.1.3. Mutar uma const - alterar o valor dessa const
+
 2. let são variáveis de escopo
 - podem ser referenciadas apenas dentro do escopo que foram declaradas
 - exemplicações estão em `main5.js`

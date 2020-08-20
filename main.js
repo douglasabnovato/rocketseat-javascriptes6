@@ -1,7 +1,7 @@
-class Matematica {
-    static soma(a, c) {
-        return a + c;
-    }
-}
+const usuario = { nome: 'Rocketseat'}
 
-console.log(Matematica.soma(4, 3));
+console.log(usuario.nome);
+
+usuario.nome = 'Starter-ES6';
+
+console.log(usuario.nome);
