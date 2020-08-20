@@ -56,7 +56,7 @@
 - [x] 4.5.1. Herdar uma classe
 - [x] 4.5.2. Herdar novos métodos
 - [x] 4.5.3. Chamar constructor 
-- [x] 4.6. Nova Exemplificação: 
+- [x] 4.6. Nova Exemplificação: Método Estático (static)
 
 #### Aula 5. Const e Let
 
