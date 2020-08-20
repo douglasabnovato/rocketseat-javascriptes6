@@ -1,7 +1,8 @@
-const usuario = { nome: 'Rocketseat'}
+function teste(x) {
+    let y = 2;
+    if(x > 5) {
+        console.log(x, y);
+    }
+}
 
-console.log(usuario.nome);
-
-usuario.nome = 'Starter-ES6';
-
-console.log(usuario.nome);
+teste(10)

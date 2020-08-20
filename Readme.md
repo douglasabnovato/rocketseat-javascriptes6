@@ -64,8 +64,10 @@
 - [x] 5.1.1. var - pode receber diversos valores do decorrer do tempo do programa 
 - [x] 5.1.2. const - uma constante que não pode ter seu valor reatribuído
 - [x] 5.1.3. Mutar uma const - alterar o valor dessa const
+- [x] 5.2. Let 
+- [x] 5.2.1. let - são as variáveis de escopo
+- [x] 5.2.2. let é visível apenas dentro da chaves ( {} ), dentro do escopo. 
 
-2. let são variáveis de escopo
 - podem ser referenciadas apenas dentro do escopo que foram declaradas
 - exemplicações estão em `main5.js`
 
