@@ -47,7 +47,10 @@
 - [x] 3.7. `yarn dev` roda a aplicação
 
 #### Aula 4. Classes
-- [x] 4.1. Método Constructor
+- [x] 4.1. Classe TodoList
+- [x] 4.2. Método Constructor
+- [x] 4.3. Método addTodo
+- [x] 4.4. Instanciar a Classe TodoList
 
 - exemplificações estão em `main1.js`
 

@@ -5,12 +5,12 @@ class TodoList {
 
     addTodo(){
         this.todos.push('Novo Todo');
-        console.log(this.todos);
+        console.log(this.todos);        
     }
 }
 
 const MinhaLista = new TodoList();
 
-document.getElementById('novoTodo').onclick = function() {
+document.getElementById('novotodo').onclick = function(){
     MinhaLista.addTodo();
 }

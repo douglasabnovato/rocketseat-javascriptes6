@@ -26,6 +26,6 @@ var TodoList = /*#__PURE__*/function () {
 
 var MinhaLista = new TodoList();
 
-document.getElementById('novoTodo').onclick = function () {
+document.getElementById('novotodo').onclick = function () {
   MinhaLista.addTodo();
 };
