@@ -1,4 +1,4 @@
-# JavascriptES6 
+# Javascript ES6 
 
 ### Atualização: 19 de agosto de 2020 - 17:00
 ### Criação: 01 de abril de 2019
@@ -20,36 +20,38 @@
 ### SESSÃO 1 - Conceitos
 
 #### Aula 1. Introdução 
-- definição : Javascript - Ecmascript 6 - ES6
-1. Babel : navegadores entenderem ES6
-2. Webpack : monitora modificações nos arquivos 
-- `yarn dev` : servidor executando e mantendo a visualização das alterações
-3. classes
-4. arrow function
-5. desestruturação
-6. rest / spread
-7. import / export
-8. async /await
+
+- [x] 1.1. Javascript - Ecmascript 6 - ES6
+- [x] 1.2. Babel : navegadores entenderem ES6
+- [x] 1.3. Webpack : monitora modificações nos arquivos 
+- [x] 1.4. classes\
+- [x] 1.5. arrow function
+- [x] 1.6. desestruturação
+- [x] 1.7. rest / spread
+- [x] 1.8. import / export
+- [x] 1.9. async /await
 
 #### Aula 2. Instalando Node e Yarn
-1. node -v
-2. yarn -v
+
+- [x] 2.1. node -v - v12.18.3 (LTS)
+- [x] 2.2. yarn -v - v1.21.1 (LTS)
 
 #### Aula 3. Configurando Babel
-1. `yarn add @babel/cli`
-2. `yarn add @babel/preset-env`
-3. Arquivos : 
-- .gitignore
-- .babelrc
-- package.json
-- main.js e index.html
-- bundle.js
+
+- [x] 3.1. `yarn init`: `package.json`
+- [x] 3.2. Instalar dependência: `yarn add @babel/cli` e `yarn add @babel/preset-env` e `yarn add @babel/core`
+- [x] 3.3. Arquivos na pasta node_modules : `.gitignore`
+- [x] 3.4. `.babelrc`
+- [x] 3.5. arquivos main.js e index.html
+- [x] 3.6. `bundle.js` : babel converte js limpo para o navegador entender
+- [x] 3.7. `yarn dev` roda a aplicação
 
 #### Aula 4. Classes
-- `yarn dev`
+
 - exemplificações estão em `main1.js`
 
 #### Aula 5. Const e Let
+
 1. const são constantes 
 - uma constante não pode ter seu valor reatribuído.
 - para realizar reatribuição de uma constante, executa-se uma mutação.
