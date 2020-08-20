@@ -50,9 +50,8 @@
 - [x] 4.1. Classe TodoList
 - [x] 4.2. Método Constructor
 - [x] 4.3. Método addTodo
-- [x] 4.4. Instanciar a Classe TodoList
-
-- exemplificações estão em `main1.js`
+- [x] 4.4. Instanciar a Classe TodoList 
+- [x] 4.5. Herança 
 
 #### Aula 5. Const e Let
 
