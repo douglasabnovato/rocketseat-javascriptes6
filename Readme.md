@@ -69,12 +69,10 @@
 - [x] 5.2.2. let é visível apenas dentro da chaves ( {} ), dentro do escopo. 
 
 #### Aula 6. Operações em Array
-- newArr
-- reduce : retorna um número de todo o vetor
-- filter : retorna true ou false
-- finder
-- map : percorrer vetor
-- exemplicações estão em `main2.js`
+
+- [x] 6.1. Array: Percorrer, Filtrar, Encontrar Valor, Manipular
+- [x] 6.1.1. Definição de Vetor
+- [x] 6.1.2. Função map: percorrer e retornar informação 
 
 #### Aula 7. Arrow Function
 - reduzir o código
