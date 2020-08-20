@@ -52,6 +52,9 @@
 - [x] 4.3. Método addTodo
 - [x] 4.4. Instanciar a Classe TodoList 
 - [x] 4.5. Herança 
+- [x] 4.5.1. Herdar uma classe
+- [x] 4.5.2. Herdar novos métodos
+- [x] 4.5.3. Chamar constructor 
 
 #### Aula 5. Const e Let
 
