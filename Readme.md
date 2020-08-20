@@ -47,6 +47,7 @@
 - [x] 3.7. `yarn dev` roda a aplicação
 
 #### Aula 4. Classes
+- [x] 4.1. Método Constructor
 
 - exemplificações estão em `main1.js`
 
