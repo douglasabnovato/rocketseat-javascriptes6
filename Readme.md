@@ -74,6 +74,7 @@
 - [x] 6.1.1. Definição de Vetor
 - [x] 6.1.2. Função map: percorrer e retornar informação 
 - [x] 6.1.3. Index: posição do elemento no vetor, passado como parâmetro
+- [x] 6.1.4. Redux: consumir o vetor e transformar em uma informação
 
 #### Aula 7. Arrow Function
 - reduzir o código
