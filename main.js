@@ -4,3 +4,9 @@ const newArr = arr.map(function(item, index){
 });
 
 console.log(newArr);
+
+const sum = arr.reduce(function(total, next){
+    return total + next;
+});
+
+console.log(sum);
