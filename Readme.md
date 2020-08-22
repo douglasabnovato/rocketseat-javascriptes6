@@ -78,10 +78,9 @@
 - [x] 6.1.5. Filter: testa condição e retorna true ou false
 - [x] 6.1.6. Find: verificar se existe/encontrar a informação dentro do array
 
-
 #### Aula 7. Arrow Function
-- reduzir o código
-- exemplicações estão em `main6.js`
+
+- [x] 7.1. Array Function: transforma uma função anônima em uma array function
 
 #### Arquivos Index
 - index.html : modelo
