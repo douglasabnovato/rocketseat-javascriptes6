@@ -76,6 +76,8 @@
 - [x] 6.1.3. Index: posição do elemento no vetor, passado como parâmetro
 - [x] 6.1.4. Redux: consumir o vetor e transformar em uma informação
 - [x] 6.1.5. Filter: testa condição e retorna true ou false
+- [x] 6.1.6. Find: verificar se existe/encontrar a informação dentro do array
+
 
 #### Aula 7. Arrow Function
 - reduzir o código
