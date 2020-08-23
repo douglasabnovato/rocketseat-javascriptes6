@@ -7,6 +7,6 @@ const usuario = {
     },
 };
 
-const { nome, idade, endereco: { cidade, estado } } = usuario
+const { nome, ...resto } = usuario
 
-console.log(nome, idade, cidade, estado);
+console.log(nome, resto);

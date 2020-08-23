@@ -94,9 +94,10 @@
 - [x] 9.2. em Funções
 
 #### Aula 10. Operações rest / spread
-- pacote do plugin : `yarn add @babel/plugin-proposal-object-rest-spread`
-- exemplicação do rest está em `main9.js` 
-- exemplicação do spread está em `main10.js`
+
+- [x] 10.1. Operadores Rest e Spread
+- [x] 10.1.1. Instalar em forma de plugins: yarn add @babel/plugin-proposal-object-rest-spread
+- [x] 10.1.2. Rest: Pegar as outras propriedades 
 
 #### Aula 11. Template Literals
 ` `Meu nome é ${meunome} e estudo ${meucurso}` ` : não há necessidade de concatenar texto e variáveis.
