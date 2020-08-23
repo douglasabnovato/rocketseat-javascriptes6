@@ -1,5 +1,5 @@
 "use strict";
 
-var nome = 'Douglas';
-var idade = 23;
-console.log('Meu nome ' + nome + ' e tenho ' + idade + ' anos.');
+var nome = 'douglasabnovato';
+var idade = 30;
+console.log("Meu nome \xE9 ".concat(nome, " e tenho ").concat(idade, " anos."));
