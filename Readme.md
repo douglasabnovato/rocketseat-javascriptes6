@@ -103,6 +103,7 @@
 #### Aula 11. Template Literals
 
 - [x] 11.1. Template Literals: incluir variáveis dentro do script
+- [x] 11.2. Com concatenações
 
 #### Aula 12.  Object Short Syntax
 
