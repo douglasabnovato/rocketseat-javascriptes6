@@ -89,7 +89,9 @@
 - [x] 8.1.2. em Array Function
 
 #### Aula 9. Desestruturação
-- exemplicações estão em `main8.js`
+
+- [x] 9.1. Desestruturação: acessar cada uma das informações da variável
+- [x] 9.2. em Funções
 
 #### Aula 10. Operações rest / spread
 - pacote do plugin : `yarn add @babel/plugin-proposal-object-rest-spread`

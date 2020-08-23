@@ -1,4 +1,12 @@
-const soma = (a = 3, b = 6) => a + b;
+const usuario = {
+    nome: 'Diego',
+    idade: 25,
+    endereco:{
+        cidade: 'Rio Grande do Sul',
+        estado: 'SC'
+    },
+};
 
-console.log(soma(2));
-console.log(soma(1));
+const { nome, idade, endereco: { cidade, estado } } = usuario
+
+console.log(nome, idade, cidade, estado);
