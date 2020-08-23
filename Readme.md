@@ -106,7 +106,9 @@
 - [x] 11.2. Com concatenações
 - [x] 11.3. Com template literals
 
-#### Aula 12.  Object Short Syntax
+#### Aula 12. Object Short Syntax
+
+- [x] 12.1. Object Short Syntax: o conteúdo for igual ao nome da variável, então, declaramos somente o nome.
 
 #### Desafio.
 - Finalizados.
