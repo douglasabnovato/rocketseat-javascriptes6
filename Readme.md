@@ -110,8 +110,51 @@
 
 - [x] 12.1. Object Short Syntax: o conteúdo for igual ao nome da variável, então, declaramos somente o nome.
 
-#### Desafio.
-- Finalizados.
+#### Desafio 1
+
+- [x] desafio-1.1.1. Crie uma classe com nome "Admin", essa classe deve
+extender uma segunda classe chamada "Usuario". A classe usuário deve receber dois parâmetros no método construtor, e-mail e senha, e anotá-los
+em propriedades da classe. A classe "Admin" por sua vez não recebe parâmetros mas deve repassar os parâmetros de e-mail e senha à classe pai e marcar uma propriedade "admin" como true na classe.
+Agora com suas classes formatadas, adicione um método na classe Usuario chamado isAdmin que retorna se o usuário é administrador ou não baseado na propriedade admin ser true ou não.
+
+- [x] desafio-1.1.2.
+````js
+class Usuario{
+    constructor(email, password){
+        this.email = email;
+        this.password = password;
+    }
+
+    isAdmin (){
+        return this.admin === true;
+    }
+}
+
+class Admin extends Usuario {
+    constructor(email, password){
+        super(email, password);
+        this.admin = true;
+    }
+}
+
+const Adm1 = new Admin('email@teste.com', 'senha123');
+const User1 = new Usuario('email@teste.com', 'senha123');
+
+console.log(User1.isAdmin()) // false
+console.log(Adm1.isAdmin()) // true
+````
+
+- [x] desafio-1.2.
+
+- [x] desafio-1.3.
+
+- [x] desafio-1.4.
+
+- [x] desafio-1.5.
+
+- [x] desafio-1.6.
+
+- [x] desafio-1.7.
 
 ### SESSÃO 2 - Webpack Server
 
