@@ -101,7 +101,8 @@
 - [x] 10.1.3. Spread: Passar as informações para outra estruturas de dados
 
 #### Aula 11. Template Literals
-` `Meu nome é ${meunome} e estudo ${meucurso}` ` : não há necessidade de concatenar texto e variáveis.
+
+- [x] 11.1. Template Literals: incluir variáveis dentro do script
 
 #### Aula 12.  Object Short Syntax
 
