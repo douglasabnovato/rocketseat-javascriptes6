@@ -4,3 +4,9 @@ const newArr = arr.map((item) => {
 });
 
 console.log(newArr);
+
+const teste = () => {
+    return 'Testando';
+}
+
+console.log(teste());
