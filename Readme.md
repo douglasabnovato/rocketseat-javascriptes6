@@ -85,7 +85,8 @@
 #### Aula 8. Valor padrão
 
 - [x] 8.1. Valor Padrão:inicializar variáveis com valor padrão na definição 
-- [x] 8.1.1. Parâmetros
+- [x] 8.1.1. em Parâmetros
+- [x] 8.1.2. em Array Function
 
 #### Aula 9. Desestruturação
 - exemplicações estão em `main8.js`
