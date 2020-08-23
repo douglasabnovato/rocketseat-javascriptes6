@@ -98,7 +98,7 @@
 - [x] 10.1. Operadores Rest e Spread
 - [x] 10.1.1. Instalar em forma de plugins: yarn add @babel/plugin-proposal-object-rest-spread
 - [x] 10.1.2. Rest: Pegar as outras propriedades
-- [x] 10.1.3. Spread: Passar as informações para as demais estruturas de dados
+- [x] 10.1.3. Spread: Passar as informações para outra estruturas de dados
 
 #### Aula 11. Template Literals
 ` `Meu nome é ${meunome} e estudo ${meucurso}` ` : não há necessidade de concatenar texto e variáveis.

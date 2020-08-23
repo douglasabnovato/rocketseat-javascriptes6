@@ -17,3 +17,7 @@ var nome = usuario.nome,
     resto = _objectWithoutProperties(usuario, ["nome"]);
 
 console.log(nome, resto);
+var arr1 = [4, 5, 6];
+var arr2 = [1, 2, 3];
+var arr3 = [].concat(arr1, arr2);
+console.log(arr3);
