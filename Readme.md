@@ -82,12 +82,10 @@
 
 - [x] 7.1. Array Function: transforma uma função anônima em uma array function
 
-#### Arquivos Index
-- index.html : modelo
-- index1.html : com botão Adicionar
+#### Aula 8. Valor padrão
 
-#### Aula 8. Valores padrão
-- exemplicações estão em `main7.js`
+- [x] 8.1. Valor Padrão:inicializar variáveis com valor padrão na definição 
+- [x] 8.1.1. Parâmetros
 
 #### Aula 9. Desestruturação
 - exemplicações estão em `main8.js`
