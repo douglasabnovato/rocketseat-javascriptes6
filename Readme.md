@@ -185,7 +185,66 @@ const calculo = usuarios
 console.log(calculo);
 ````
 
-- [x] desafio-1.3.
+- [x] desafio-1.3.1. Converta as funções nos seguintes trechos de código em Arrow Functions.
+
+- [x] desafio-1.3.2.
+````js
+//3.1
+const arr = [1, 2, 3, 4, 5];
+arr.map(function(item) {
+     return item + 10;
+});
+````
+````js
+const arr = [1, 2, 3, 4, 5];
+console.log(arr);
+const soma10 = arr.map(ar => ar + 10);
+console.log(soma10);
+````
+````js
+//3.2 
+const usuario = { nome: 'Diego', idade: 23 };
+function mostraIdade(usuario) {
+     return usuario.idade;
+}
+mostraIdade(usuario);
+````
+````js
+const usuario = { nome: "Douglas", idade: 29 };
+const mostrarIdade = usuario => usuario.idade;
+console.log(mostrarIdade(usuario));
+````
+````js
+//3.3
+const nome = "Diego";
+const idade = 23;
+function mostraUsuario(nome = 'Diego', idade = 18) {
+     return { nome, idade };
+}
+mostraUsuario(nome, idade);
+mostraUsuario(nome);
+````
+````js
+const nome = "Douglas";
+const idade = 23;
+const mostrarUsuario = (nome = "Diego", idade = 18) => ({
+    nome,
+    idade
+});
+console.log(mostrarUsuario(nome, idade));
+console.log(mostrarUsuario(nome));
+````
+````js
+//3.4
+const promise = function() {
+     return new Promise(function(resolve, reject) {
+         return resolve();
+     })
+}
+````
+````js
+const promise = () => new Promise((resolve, reject) => resolve());
+````
 
 - [x] desafio-1.4.
 

@@ -1,61 +1,75 @@
 "use strict";
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+/**
+ * 3.1
+ * const arr = [1, 2, 3, 4, 5];
+ * arr.map(function(item) {
+ *      return item + 10;
+ * });
+ */
+var arr = [1, 2, 3, 4, 5];
+console.log(arr);
+var soma10 = arr.map(function (ar) {
+  return ar + 10;
+});
+console.log(soma10);
+/**
+ * 3.2
+ * Dica: Utilize uma constante pra function
+ * const usuario = { nome: 'Diego', idade: 23 };
+ * function mostraIdade(usuario) {
+ *      return usuario.idade;
+ * }
+ * mostraIdade(usuario);
+ */
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+var usuario = {
+  nome: "Douglas",
+  idade: 29
+};
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var usuarios = [{
-  nome: 'Diego',
-  idade: 23,
-  empresa: 'Rocketseat'
-}, {
-  nome: 'Gabriel',
-  idade: 15,
-  empresa: 'Rocketseat'
-}, {
-  nome: 'Lucas',
-  idade: 30,
-  empresa: 'Facebook'
-}, {
-  nome: 'Danilo',
-  idade: 25,
-  empresa: 'Rocketseat'
-}];
-/** map */
-
-var idades = usuarios.map(function (usuario) {
+var mostrarIdade = function mostrarIdade(usuario) {
   return usuario.idade;
-});
-console.log(idades);
-var empresas = usuarios.map(function (usuario) {
-  return usuario.empresa;
-});
-console.log(empresas);
-var nomes = usuarios.map(function (usuario) {
-  return usuario.nome;
-});
-console.log(nomes);
-/** filter */
+};
 
-var rocketseat18 = usuarios.filter(function (usuario) {
-  return usuario.empresa === 'Rocketseat' && usuario.idade >= 18;
-});
-console.log(rocketseat18);
-/** find */
+console.log(mostrarIdade(usuario));
+/**
+ * 3.3
+ * Dica: Utilize uma constante pra function
+ * const nome = "Diego";
+ * const idade = 23;
+ * function mostraUsuario(nome = 'Diego', idade = 18) {
+ *      return { nome, idade };
+ * }
+ * mostraUsuario(nome, idade);
+ * mostraUsuario(nome);
+ */
 
-var salarioGoogle = usuarios.find(function (usuario) {
-  return usuario.empresa === 'Google';
-});
-console.log(salarioGoogle);
-/** Unindo operações */
+var nome = "Douglas";
+var idade = 23;
 
-var calculo = usuarios.map(function (usuario) {
-  return _objectSpread(_objectSpread({}, usuario), {}, {
-    idade: usuario.idade * 2
+var mostrarUsuario = function mostrarUsuario() {
+  var nome = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "Diego";
+  var idade = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 18;
+  return {
+    nome: nome,
+    idade: idade
+  };
+};
+
+console.log(mostrarUsuario(nome, idade));
+console.log(mostrarUsuario(nome));
+/**
+ * 3.4
+ * const promise = function() {
+ *      return new Promise(function(resolve, reject) {
+ *          return resolve();
+ *      })
+ * }
+ */
+
+var promise = function promise() {
+  return new Promise(function (resolve, reject) {
+    return resolve();
   });
-}).filter(function (usuario) {
-  return usuario.idade <= 50;
-});
-console.log(calculo);
+};

@@ -1,33 +1,60 @@
-const usuarios = [
-    { nome: 'Diego', idade: 23, empresa: 'Rocketseat' },
-    { nome: 'Gabriel', idade: 15, empresa: 'Rocketseat' },
-    { nome: 'Lucas', idade: 30, empresa: 'Facebook' },
-    { nome: 'Danilo', idade: 25, empresa: 'Rocketseat' },
-];
+/**
+ * 3.1
+ * const arr = [1, 2, 3, 4, 5];
+ * arr.map(function(item) {
+ *      return item + 10;
+ * });
+ */
+const arr = [1, 2, 3, 4, 5];
+console.log(arr);
 
-/** map */
-const idades = usuarios.map(usuario => usuario.idade);
-console.log(idades);
-const empresas = usuarios.map(usuario => usuario.empresa);
-console.log(empresas);
-const nomes = usuarios.map(usuario => usuario.nome);
-console.log(nomes);
+const soma10 = arr.map(ar => ar + 10);
+console.log(soma10);
 
-/** filter */
-const rocketseat18 = usuarios.filter(
-    usuario => usuario.empresa === 'Rocketseat' && usuario.idade >= 18
-);
-console.log(rocketseat18);
+/**
+ * 3.2
+ * Dica: Utilize uma constante pra function
+ * const usuario = { nome: 'Diego', idade: 23 };
+ * function mostraIdade(usuario) {
+ *      return usuario.idade;
+ * }
+ * mostraIdade(usuario);
+ */
+const usuario = { nome: "Douglas", idade: 29 };
+const mostrarIdade = usuario => usuario.idade;
+console.log(mostrarIdade(usuario));
 
-/** find */
-const salarioGoogle = usuarios.find(
-    usuario => usuario.empresa === 'Google'
-);
-console.log(salarioGoogle);
+/**
+ * 3.3
+ * Dica: Utilize uma constante pra function
+ * const nome = "Diego";
+ * const idade = 23;
+ * function mostraUsuario(nome = 'Diego', idade = 18) {
+ *      return { nome, idade };
+ * }
+ * mostraUsuario(nome, idade);
+ * mostraUsuario(nome);
+ */
+const nome = "Douglas";
+const idade = 23;
+const mostrarUsuario = (nome = "Diego", idade = 18) => ({
+    nome,
+    idade
+});
+console.log(mostrarUsuario(nome, idade));
+console.log(mostrarUsuario(nome));
 
-/** Unindo operações */
-const calculo = usuarios
-    .map(usuario => ({ ...usuario, idade: usuario.idade * 2 }))
-    .filter(usuario => usuario.idade <= 50
-);
-console.log(calculo);
+/**
+ * 3.4
+ * const promise = function() {
+ *      return new Promise(function(resolve, reject) {
+ *          return resolve();
+ *      })
+ * }
+ */
+const promise = () => new Promise((resolve, reject) => resolve());
+
+
+
+ 
+
