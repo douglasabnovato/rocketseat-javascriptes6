@@ -246,7 +246,33 @@ const promise = function() {
 const promise = () => new Promise((resolve, reject) => resolve());
 ````
 
-- [x] desafio-1.4.
+- [x] desafio-1.4.1.1. Desestruturação simples
+- [x] desafio-1.4.1.2. 
+`````js
+const empresa = {
+    nome: "Rocketseat",
+    endereco: {
+        cidade: "Rio de Janeiro",
+        estado: "SC",
+    }
+};
+//desestruturação para transformar as propriedades nome, cidade e estado em variáveis
+const {nome, endereco:{cidade, estado}} = empresa;
+
+console.log(nome);
+console.log(cidade);
+console.log(estado);
+````
+
+- [x] desafio-1.4.2.1. Desestruturação em parâmetros
+- [x] desafio-1.4.2.2. 
+````js
+//a desestruturação nos parâmetros da função para buscar o nome e idade do usuário separadamente
+function mostrarInfo( {nome, idade} ){
+    return `${nome} tem ${idade} anos.`;
+}
+console.log(mostrarInfo({nome: "Diego", idade: 25}));
+````
 
 - [x] desafio-1.5.
 
